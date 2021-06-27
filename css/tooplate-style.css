@@ -1,13 +1,13 @@
 /* 	
 
-Template 2102 Constructive
+Template 2102 grass
 
-http://www.tooplate.com/view/2102-constructive
+http://www.tooplate.com/view/2102-grass
 
 */
 
 /* * {
-    color: green;
+    color: rgb(40, 247, 45);
     text-shadow: 1px 1px black;
 } */
 
@@ -23,10 +23,11 @@ body {
     background: #222222;
 }
 
-#preload-01 { background: url(../img/grass_7.jpg) no-repeat -9999px -9999px; }
-#preload-02 { background: url(../img/constructive_bg_02.jpg) no-repeat -9999px -9999px; }
-#preload-03 { background: url(../img/constructive_bg_03.jpg) no-repeat -9999px -9999px; }
-#preload-04 { background: url(../img/constructive_bg_04.jpg) no-repeat -9999px -9999px; }
+/* CHANGE TO MATCH SECTIONS BACKGROUND-IMAGE */
+#preload-01 { background: url(../img/grass_7.jpg) no-repeat -9999px -9999px; }   /* HOME PAGE */
+#preload-02 { background: url(../img/grass_8.jpg) no-repeat -9999px -9999px; }   /* PRODUCTS PAGE */
+#preload-03 { background: url(../img/grass_10.jpg) no-repeat -9999px -9999px; }  /* COMPANY PAGE */
+#preload-04 { background: url(../img/grass_16.png) no-repeat -9999px -9999px; }  /* CONTACT PAGE */
 
 ul { margin: 0; padding: 0; }
 
@@ -56,7 +57,7 @@ p:last-child { margin-bottom: 0; }
     padding: 30px;
 }
 
-.tm-contact-box-pad { padding: 60px 55px; border: 2px solid green; }
+.tm-contact-box-pad { padding: 60px 55px; border: 2px solid rgb(40, 247, 45); }
 .tm-border-white { border: 1px solid white; }
 .media { align-items: center; }
 
@@ -175,14 +176,14 @@ p:last-child { margin-bottom: 0; }
 .tm-main-nav a:focus,
 .tm-main-nav a.active {
     background-image: url(../img/nav-item-highlight.png);
-    color: greenyellow;
+    color: rgb(40, 247, 45)yellow;
     text-decoration: none;    
 }
 
 .tm-main-nav a:hover .tm-nav-fa-icon,
 .tm-main-nav a:focus .tm-nav-fa-icon,
 .tm-main-nav a.active .tm-nav-fa-icon {
-    border-color: greenyellow;
+    border-color: rgb(40, 247, 45)yellow;
 }
 
 .fa-menu {
@@ -202,8 +203,8 @@ p:last-child { margin-bottom: 0; }
 
 .tm-btn:hover,
 .tm-btn:focus {
-    color: greenyellow;
-    border-color: greenyellow;
+    color: rgb(40, 247, 45)yellow;
+    border-color: rgb(40, 247, 45)yellow;
 }
 
 .tm-btn-submit {
@@ -221,7 +222,7 @@ p:last-child { margin-bottom: 0; }
     text-shadow: 0px 3px 2px rgba(50, 50, 50, 1); 
     font-family: fantasy;
     font-family: zapfino;
-    color: green;
+    color: rgb(40, 247, 45);
 }
 
 .tm-section {
@@ -231,7 +232,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 h3 {
-    color: green;
+    color: rgb(40, 247, 45);
     text-shadow: 1px 1px black;
 }
 
@@ -246,7 +247,7 @@ h3 {
 .tm-icon-media {
   margin-right: 1.5rem;
   margin-bottom: 0;
-  color: green;
+  color: rgb(40, 247, 45);
   text-shadow: 1px 1px black;
 }
 
@@ -263,7 +264,7 @@ address { font-size: 1rem; }
 .form-control:focus {
     background: #00800070;
     color: white;
-    border-color: greenyellow;
+    border-color: rgb(40, 247, 45)yellow;
     box-shadow: none;
 }
 
@@ -357,7 +358,7 @@ footer a { color: white; }
         padding: 10px 15px;
         background: #000000c4;
         border: 1px solid;
-        color: greenyellow;
+        color: rgb(40, 247, 45)yellow;
         cursor: pointer;
         margin-top: 4px;
         margin-left: 4px;

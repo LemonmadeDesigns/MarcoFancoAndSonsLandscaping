@@ -36,10 +36,10 @@
 
     cursor: pointer;
 
-    color: green;
+    color: rgb(40, 247, 45);
     border: none;
     outline: none;
-    background: green;
+    background: rgb(40, 247, 45);
     border-radius: 50%;
 }
 .slick-prev:hover,
@@ -50,10 +50,10 @@
     color: transparent;
     outline: none;
     /* background: transparent; */
-    color: green;
+    color: rgb(40, 247, 45);
     border: none;
     outline: none;
-    background: green;
+    background: rgb(40, 247, 45);
     border-radius: 50%;
 }
 .slick-prev:hover:before,

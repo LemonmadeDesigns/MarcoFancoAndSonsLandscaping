@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
@@ -22,7 +22,7 @@ body {
 
 body > nav {
   grid-area: nav;
-  background-color: green;
+  background-color: rgb(40, 247, 45);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -58,7 +58,6 @@ body > main {
 
 body > main h1:first-child {
   margin-bottom: 50px;
-  /* font-family: 'Snell Roundhand'; */
   font-family: 'Dancing Script';
 }
 
@@ -95,7 +94,7 @@ nav > a.active {
   grid-column: span 2;
   width: 10rem;
   margin-left: auto;
-  background: green;
+  background: rgb(40, 247, 45);
 }
 
 label {
@@ -143,7 +142,7 @@ table td {
 }
 
 input[type=submit] {
-  background: green;
+  background: rgb(40, 247, 45);
 }
 
 #add-comment-form,#add-viewer-form {
@@ -156,7 +155,7 @@ input[type=submit] {
 #add-comment-form input[type="submit"],
 #add-viewer-form input[type="submit"] {
   grid-column: 2 / 3;
-  background: green;
+  background: rgb(40, 247, 45);
 }
 
 ul {
@@ -169,9 +168,38 @@ li {
   font-weight: bold;
 }
 
-/* =============================== */
-
 nav > a:hover {
   height: 100%;
   border-radius: 0;
+} */
+
+/* *******   NAVBAR   ******* */
+
+.sidebar {
+    border-right: 2px solid;
+}
+
+/* ******* HOME PAGE ******* */
+
+/* BUSINESS MOTTO */
+.banner-piece {
+  background-color: rgba(0,0,0,0.5);
+  padding: 1em;
+  border: 2px solid;
+  color: white;
+}
+
+.tm-btn {
+    background: rgba(0,0,0,0.5);
+}
+
+/* ******* CONTACT PAGE ******* */
+.form-control {
+    background: #0c0b0b52;
+    border-color: rgb(40 247 45);
+    color: white !important;
+    text-shadow: 1px 1px black;
+    font-weight: 300;
+    border-radius: 0;
+    padding: 15px;
 }
