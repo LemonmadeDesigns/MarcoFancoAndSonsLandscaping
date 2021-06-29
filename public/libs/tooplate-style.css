@@ -12,7 +12,7 @@ http://www.tooplate.com/view/2102-grass
 } */
 
 body {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	/* font-family: 'Open Sans', Helvetica, Arial, sans-serif; */
 	font-size: 18px;
 	font-weight: 300;
     color: white;
@@ -24,10 +24,10 @@ body {
 }
 
 /* CHANGE TO MATCH SECTIONS BACKGROUND-IMAGE */
-#preload-01 { background: url(../img/grass_7.jpg) no-repeat -9999px -9999px; }   /* HOME PAGE */
-#preload-02 { background: url(../img/grass_8.jpg) no-repeat -9999px -9999px; }   /* PRODUCTS PAGE */
-#preload-03 { background: url(../img/grass_10.jpg) no-repeat -9999px -9999px; }  /* COMPANY PAGE */
-#preload-04 { background: url(../img/grass_16.png) no-repeat -9999px -9999px; }  /* CONTACT PAGE */
+#preload-01 { background: url(../images/img/grass_7.jpg) no-repeat -9999px -9999px; }   /* HOME PAGE */
+#preload-02 { background: url(../images/img/grass_8.jpg) no-repeat -9999px -9999px; }   /* PRODUCTS PAGE */
+#preload-03 { background: url(../images/img/grass_10.jpg) no-repeat -9999px -9999px; }  /* COMPANY PAGE */
+#preload-04 { background: url(../images/img/grass_16.png) no-repeat -9999px -9999px; }  /* CONTACT PAGE */
 
 ul { margin: 0; padding: 0; }
 
@@ -157,7 +157,7 @@ p:last-child { margin-bottom: 0; }
 .tm-main-nav { font-size: 1.6rem; }
 .tm-main-nav li { list-style: none; }
 .tm-main-nav a {
-    background-image: url(../img/nav-item.png);
+    background-image: url(../images/img/nav-item.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     color: white;
@@ -175,15 +175,15 @@ p:last-child { margin-bottom: 0; }
 .tm-main-nav a:hover,
 .tm-main-nav a:focus,
 .tm-main-nav a.active {
-    background-image: url(../img/nav-item-highlight.png);
-    color: rgb(40, 247, 45)yellow;
+    background-image: url(../images/img/nav-item-highlight.png);
+    color: rgb(40, 247, 45);
     text-decoration: none;    
 }
 
 .tm-main-nav a:hover .tm-nav-fa-icon,
 .tm-main-nav a:focus .tm-nav-fa-icon,
 .tm-main-nav a.active .tm-nav-fa-icon {
-    border-color: rgb(40, 247, 45)yellow;
+    border-color: rgb(40, 247, 45);
 }
 
 .fa-menu {
@@ -203,8 +203,8 @@ p:last-child { margin-bottom: 0; }
 
 .tm-btn:hover,
 .tm-btn:focus {
-    color: rgb(40, 247, 45)yellow;
-    border-color: rgb(40, 247, 45)yellow;
+    color: rgb(40, 247, 45);
+    border-color: rgb(40, 247, 45);
 }
 
 .tm-btn-submit {
@@ -220,8 +220,8 @@ p:last-child { margin-bottom: 0; }
 
 .tm-text-shadow { 
     text-shadow: 0px 3px 2px rgba(50, 50, 50, 1); 
-    font-family: fantasy;
-    font-family: zapfino;
+    /* font-family: fantasy;
+    font-family: zapfino; */
     color: rgb(40, 247, 45);
 }
 
@@ -264,7 +264,7 @@ address { font-size: 1rem; }
 .form-control:focus {
     background: #00800070;
     color: white;
-    border-color: rgb(40, 247, 45)yellow;
+    border-color: rgb(40, 247, 45);
     box-shadow: none;
 }
 
@@ -351,18 +351,17 @@ footer a { color: white; }
         display: block;
         position: absolute;
         right: -60px;
-        top: 0;
+        top: -4px;
     }
     
     .menu-icon {
         padding: 10px 15px;
         background: #000000c4;
         border: 1px solid;
-        color: rgb(40, 247, 45)yellow;
+        color: rgb(40, 247, 45);
         cursor: pointer;
         margin-top: 4px;
         margin-left: 4px;
-        border-radius: 5px;
         width: 60px;
         height: 50px;
         z-index: 1001;
