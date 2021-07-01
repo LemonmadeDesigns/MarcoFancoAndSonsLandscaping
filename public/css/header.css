@@ -64,7 +64,11 @@ p.landscaping {
 		position: relative;
 		font-weight: 300;
 		font-size: 3.5em;
-		color: #402d2d;
+		color: rgb(40, 247, 45);
 		text-align: center;
+	}
+
+	#tm-section-1 > div > a {
+		display: none;
 	}
 }

@@ -176,56 +176,86 @@ nav > a:hover {
 /* *******   NAVBAR   ******* */
 
 .sidebar {
-    border-right: 2px solid;
+	border-right: 2px solid;
 }
 
 /* ******* HOME PAGE ******* */
 
 /* BUSINESS MOTTO */
 .banner-piece {
-  background-color: rgba(0,0,0,0.5);
-  padding: 1em;
-  border: 2px solid;
-  color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 1em;
+	border: 2px solid;
+	color: white;
 }
 
 .tm-btn {
-    background: rgba(0,0,0,0.5);
+	background: rgba(0, 0, 0, 0.5);
 }
 
-.h2, h2 {
-    font-size: 4em;
+.h2,
+h2 {
+	font-size: 4em;
+}
+
+@media (max-width: 600px) {
+	.h2,
+	h2 {
+		font-size: 3em;
+	}
 }
 
 /* ******* PRODUCT PAGE ******* */
 .slick-dots {
-    bottom: -55px;
+	bottom: -55px;
 }
 
 @media (max-width: 600px) {
-  
-  p.landscaping {
-    line-height: 1em;
-    margin-bottom: 1em;
-  }
+	p.landscaping {
+		line-height: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+/* ******* PRODUCT PAGE ******* */
+.media {
+  width: 100%;
+  height: 100%;
 }
 
 /* ******* CONTACT PAGE ******* */
 .form-control {
-    background: #0c0b0b52;
-    border-color: rgb(40 247 45);
-    color: white !important;
-    text-shadow: 1px 1px black;
-    font-weight: 300;
-    border-radius: 0;
-    padding: 15px;
+	background: #0c0b0b52;
+	border-color: rgb(40 247 45);
+	color: white !important;
+	text-shadow: 1px 1px black;
+	font-weight: 300;
+	border-radius: 0;
+	padding: 15px;
+}
+
+label {
+	width: 100%;
+}
+
+#tm-section-4 > div > div.row.tm-page-4-content > div:nth-child(2) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#tm-section-4 > div > div.row.tm-page-4-content > div:nth-child(2) > div {
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+  justify-content: space-evenly;
 }
 
 p.contact_us {
-    font-size: 20px;
-    line-height: 1.5;
-    text-align: center;
-    text-shadow: 1px 1px 1px black;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
 }
 
 /* FOR CONTACT INFORMATION (RAINBOW) */
@@ -235,20 +265,37 @@ p.contact_us {
 } */
 
 .wrapper {
-  max-width: 728px;
+	max-width: 728px;
 }
 .rainbow-text {
-  background-image: repeating-linear-gradient(45deg, rgb(40, 247, 45),  dodgerblue, white, yellow, orange, red, rgb(40, 247, 45));
-  text-align: center;
-  background-size: 800% 800%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 24px;
-  animation: rainbow 8s ease infinite;
+	/* background-image: repeating-linear-gradient(45deg, rgb(40, 247, 45),  dodgerblue, white, yellow, orange, red, rgb(40, 247, 45)); */
+	background-image: repeating-linear-gradient(
+		45deg,
+		red,
+		rgb(40, 247, 45),
+		red,
+		rgb(40, 247, 45),
+		red,
+		rgb(40, 247, 45),
+		red
+	);
+	text-align: center;
+	background-size: 800% 800%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 24px;
+	animation: rainbow 8s ease infinite;
 }
 
-@keyframes rainbow { 
-  0% { background-position: 0% 50% }
-  50% { background-position: 100% 25% }
-  100% { background-position: 0% 50% }
+@keyframes rainbow {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 25%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

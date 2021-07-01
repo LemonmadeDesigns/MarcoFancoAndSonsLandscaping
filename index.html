@@ -16,7 +16,10 @@
 		<!-- SOURCE MAP ERROR -->
 
 		<!-- Google web font "Open Sans" -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+		/>
 
 		<!-- BOOTSTRAP FRAMEWORKS -->
 		<link rel="stylesheet" href="./public/css/libs/bootstrap.min.css" />
@@ -27,7 +30,7 @@
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="./public/css/main.css" />
-		<link rel="stylesheet" href="./public/css/header.css">
+		<link rel="stylesheet" href="./public/css/header.css" />
 
 		<!-- PAGE RENDERING BEFORE PAGE IS LOADED FOR LOADER -->
 		<script src="./public/js/main.js"></script>
@@ -131,6 +134,9 @@
 								Low Voltage Lighting Valve, Plants, Remodel, Concrete, and
 								Hardscape...
 							</p>
+							<p class="mb-5 tm-font-big banner-piece">
+								Providing the highest level of service and quality, we take on all residential and commercial jobs, no matter the size. Whether it's just keeping your lawn mowed or designing and implementing a full solution for a large commercial center or apartment complex, the end goal is always the same - a satisfied customer.
+							</p>
 							<h3>"We aim to keep Customers Happy!"</h3>
 							<br />
 							<a
@@ -148,8 +154,10 @@
 					<section id="tm-section-2" class="tm-section tm-section-carousel">
 						<div>
 							<header class="mb-4">
-								<h2 class="tm-text-shadow">Our Products</h2>
-								<p>Click on image for closer view</p>
+								<h2 class="tm-text-shadow" style="color: white">
+									Our Products
+								</h2>
+								<p style="color: red">Click on image for closer view</p>
 							</header>
 							<div class="tm-img-container">
 								<div class="tm-img-slider">
@@ -333,8 +341,14 @@
 						<div class="row">
 							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
 								<div class="media tm-bg-transparent-black tm-border-white">
-									<!-- <i class="fab fa-apple tm-icon-circled tm-icon-media"></i> -->
-									<i class="fas fa-money-bill-wave mr-4 tm-icon-circled tm-icon-media"></i>
+									<i
+										class="
+											fas
+											fa-money-bill-wave
+											mr-4
+											tm-icon-circled tm-icon-media
+										"
+									></i>
 									<div class="media-body">
 										<h3>Competitive Pricing And Service</h3>
 										<p>
@@ -360,7 +374,9 @@
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
 								<div class="media tm-bg-transparent-black tm-border-white">
-									<i class="fas fa-water mr-4 tm-icon-circled tm-icon-media"></i>
+									<i
+										class="fas fa-water mr-4 tm-icon-circled tm-icon-media"
+									></i>
 									<div class="media-body">
 										<h3>Sprinkler System Installation</h3>
 										<p>
@@ -381,6 +397,8 @@
 										<p>
 											The
 											<a
+												target="_blank"
+												rel="noreferrer noopener"
 												href="https://www.contractorslicensingschools.com/landscaping-contractor-c27.cfm#:~:text=California%20Contractors%20License%20Classification%3A,for%20commercial%20and%20residential%20properties."
 												>C-27 Certified</a
 											>
@@ -405,36 +423,63 @@
 							<div class="row tm-page-4-content">
 								<div class="col-md-6 col-sm-12 tm-contact-col">
 									<div class="contact_message">
-										<form action="#contact" method="post" class="contact-form">
+										<form
+											action="mailto:marcofranco668@gmail.com"
+											enctype="text/plain"
+											method="post"
+											class="contact-form"
+										>
 											<div class="form-group">
-												<input
-													type="text"
-													id="contact_name"
-													name="contact_name"
-													class="form-control"
-													placeholder="Name"
-													required
-												/>
+												<label for="contact_name"
+													>Name:
+													<input
+														type="text"
+														id="contact_name"
+														name="contact_name"
+														class="form-control"
+														placeholder="Name"
+														required
+													/>
+												</label>
 											</div>
 											<div class="form-group">
-												<input
-													type="email"
-													id="contact_email"
-													name="contact_email"
-													class="form-control"
-													placeholder="Email"
-													required
-												/>
+												<label for="contact_email"
+													>Email:
+													<input
+														type="email"
+														id="contact_email"
+														name="contact_email"
+														class="form-control"
+														placeholder="Email"
+														required
+													/>
+												</label>
 											</div>
 											<div class="form-group">
-												<textarea
-													id="contact_message"
-													name="contact_message"
-													class="form-control"
-													rows="9"
-													placeholder="Message"
-													required
-												></textarea>
+												<label for="contact_number"
+													>Phone:
+													<input
+														type="tel"
+														id="contact_number"
+														name="contact_number"
+														class="form-control"
+														placeholder="number"
+														required
+													/>
+												</label>
+											</div>
+											<div class="form-group">
+												<label for="contact_message"
+													>Message
+													<textarea
+														id="contact_message"
+														name="contact_message"
+														class="form-control"
+														rows="9"
+														placeholder="Message"
+														required
+													></textarea>
+												</label>
 											</div>
 											<button
 												type="submit"
@@ -447,21 +492,30 @@
 								</div>
 								<div class="col-md-6 col-sm-12 tm-contact-col">
 									<div class="tm-address-box">
+										<header>
+											<h3 class="tm-text-shadow text-center">What we offer</h3>
+										</header>
 										<p class="contact_us">
 											We’re proud to offer you licensed, bonded, and insured
 											services with the proof of workman’s comp and certificate
 											of liability to ensure you are protected from risk as a
 											landowner.
 										</p>
+										<h3 class="tm-text-shadow text-center">
+											Accredited by BBB
+										</h3>
 										<p class="contact_us">
-											Accredited by BBB -
+											Click Here:
 											<a
+												target="_blank"
+												rel="noreferrer noopener"
 												href="https://www.bbb.org/us/ca/beaumont/profile/landscape-contractors/franco-sons-landscaping-1066-850047345"
 											>
-												Business Bureau
+												Better Business Bureau
 											</a>
+											<br />
+											License: #1050431
 										</p>
-										<p class="contact_us">License: #1050431</p>
 										<address
 											class="rainbow-text"
 											style="text-align: center; font-size: 24px"
@@ -480,8 +534,11 @@
 				<!-- FOOTER -->
 				<footer class="footer-link">
 					<p class="tm-copyright-text">
-						Copyright &copy; 
-						<i class="far fa-lemon" style="margin-left: 5px; margin-right: 5px; color: yellow;"></i>
+						Copyright &copy;
+						<i
+							class="far fa-lemon"
+							style="margin-left: 5px; margin-right: 5px; color: yellow"
+						></i>
 						2021 Lemon'made Design
 					</p>
 				</footer>
