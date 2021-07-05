@@ -179,7 +179,19 @@ nav > a:hover {
 	border-right: 2px solid;
 }
 
+.tm-section {
+  margin-top: 1em;
+}
+
 /* ******* HOME PAGE ******* */
+
+@media (max-width: 600px) {
+
+  #tm-section-1 {
+    max-width: 300px;
+  }
+}
+
 
 /* BUSINESS MOTTO */
 .banner-piece {

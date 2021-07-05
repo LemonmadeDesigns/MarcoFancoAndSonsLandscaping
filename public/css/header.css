@@ -57,18 +57,22 @@ p.landscaping {
 		padding-right: 0.05em;
 		padding-bottom: 0.15em;
 		line-height: 1em;
-		width: 430px;
+		width: 300px;
 	}
 
 	.ml5 {
 		position: relative;
 		font-weight: 300;
-		font-size: 3.5em;
+		font-size: 2.5em;
 		color: rgb(40, 247, 45);
 		text-align: center;
 	}
 
 	#tm-section-1 > div > a {
 		display: none;
+	}
+
+	.footer-link {
+    bottom: 40px !important;
 	}
 }
