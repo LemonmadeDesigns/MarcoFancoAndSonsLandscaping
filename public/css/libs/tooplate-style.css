@@ -24,7 +24,7 @@ body {
 }
 
 /* CHANGE TO MATCH SECTIONS BACKGROUND-IMAGE */
-#preload-01 { background: url(/public/images/img/mini-size) no-repeat -9999px -9999px; }   /* HOME PAGE */
+#preload-01 { background: url(/public/images/img/mini-size/grass_7.jpg) no-repeat -9999px -9999px; }   /* HOME PAGE */
 #preload-02 { background: url(/public/images/mini-size/grass_xxx.jpeg) no-repeat -9999px -9999px; }   /* PRODUCTS PAGE */
 #preload-03 { background: url(/public/images/img/grass_10.jpg) no-repeat -9999px -9999px; }  /* COMPANY PAGE */
 #preload-04 { background: url(/public/images/img/grass_16.png) no-repeat -9999px -9999px; }  /* CONTACT PAGE */
