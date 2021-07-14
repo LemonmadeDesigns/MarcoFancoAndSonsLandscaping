@@ -1,177 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 * {
   box-sizing: border-box;
-  font-family: 'Orbitron';
-  color: lime;
   text-shadow: 1px 1px 1px black
 }
-
-body {
-  margin: 0;
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 64px 50px 1fr;
-  grid-template-areas:
-    "nav"
-    "log"
-    "main";
-}
-
-body > nav {
-  grid-area: nav;
-  background-color: rgb(40, 247, 45);
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0 20px 0 30px;
-}
-
-nav > img {
-  width: 34px;
-  object-fit: contain;
-  margin-right: auto;
-}
-
-div#loggin {
-  grid-area: log;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0 2em 0 0;
-}
-
-body > main {
-  position: absolute;
-  top: 115px;
-  z-index: 100; 
-  grid-area: main;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: transparent;
-  padding: 20px;
-  overflow-y: auto;
-}
-
-body > main h1:first-child {
-  margin-bottom: 50px;
-  font-family: 'Dancing Script';
-}
-
-nav > a {
-  margin: 20px;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-nav > a:hover {
-  color: white;
-  background-color: #424748;
-}
-
-nav > a.active {
-  color: white;
-}
-
-#new-form {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(2, minmax(auto, 22rem));
-}
-
-#new-form *, #add-comment-form *,
-#add-viewer-form * {
-  font-size: 20px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-#new-form input[type="submit"] {
-  grid-column: span 2;
-  width: 10rem;
-  margin-left: auto;
-  background: rgb(40, 247, 45);
-}
-
-label {
-  font-size: .8rem;
-  color: white;
-}
-
-table {
-  font-size: 20px;
-}
-
-table thead th {
-  padding: 5px;
-  border-bottom: 2px solid #424748;
-}
-
-table td {
-  padding: 10px;
-  text-align: center;
-}
-
-#list td:nth-child(2), #list td:nth-child(3){
-  min-width: 100px;
-}
-
-#list a {
-  border-radius: 4px;
-  padding: 4px;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-#list a:hover {
-  background-color: white;
-}
-
-#show-page {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 1rem;
-}
-
-#show-page div:nth-child(even) {
-  font-weight: bold;
-}
-
-input[type=submit] {
-  background: rgb(40, 247, 45);
-}
-
-#add-comment-form,#add-viewer-form {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-#add-comment-form input[type="submit"],
-#add-viewer-form input[type="submit"] {
-  grid-column: 2 / 3;
-  background: rgb(40, 247, 45);
-}
-
-ul {
-  margin: 0 0 1rem;
-  padding: 0;
-  list-style: none;
-}
-
-li {
-  font-weight: bold;
-}
-
-nav > a:hover {
-  height: 100%;
-  border-radius: 0;
-} */
 
 /* *******   NAVBAR   ******* */
 
@@ -191,7 +25,6 @@ nav > a:hover {
     max-width: 300px;
   }
 }
-
 
 /* BUSINESS MOTTO */
 .banner-piece {
@@ -222,17 +55,16 @@ h2 {
 	bottom: -55px;
 }
 
+.media {
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 600px) {
 	p.landscaping {
 		line-height: 1em;
 		margin-bottom: 1em;
 	}
-}
-
-/* ******* PRODUCT PAGE ******* */
-.media {
-  width: 100%;
-  height: 100%;
 }
 
 /* ******* CONTACT PAGE ******* */
@@ -271,25 +103,26 @@ p.contact_us {
 }
 
 /* FOR CONTACT INFORMATION (RAINBOW) */
-/* body {
-  background-color: #353b48;
-  color: #dcdde1;
-} */
 
 .wrapper {
 	max-width: 728px;
 }
+
 .rainbow-text {
 	/* background-image: repeating-linear-gradient(45deg, rgb(40, 247, 45),  dodgerblue, white, yellow, orange, red, rgb(40, 247, 45)); */
 	background-image: repeating-linear-gradient(
 		45deg,
 		red,
+		yellow,
 		rgb(40, 247, 45),
 		red,
+		yellow,
 		rgb(40, 247, 45),
 		red,
+		yellow,
 		rgb(40, 247, 45),
-		red
+		red,
+		yellow
 	);
 	text-align: center;
 	background-size: 800% 800%;
@@ -297,7 +130,7 @@ p.contact_us {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 24px;
-	animation: rainbow 8s ease infinite;
+	animation: rainbow 12s ease infinite;
 }
 
 @keyframes rainbow {

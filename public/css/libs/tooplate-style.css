@@ -38,9 +38,9 @@ a:focus {
 	outline: none;
 }
 
-a {	color: #FFF;  }
+a {	color: #FF0;  }
 
-a:hover { color: #FF0; }
+a:hover { color: rgb(40, 247, 45); }
 
 h1,h2,h3 { font-weight: 300; }
 
