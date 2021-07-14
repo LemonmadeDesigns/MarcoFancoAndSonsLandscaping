@@ -4,7 +4,6 @@
 
 * {
   box-sizing: border-box;
-  text-shadow: 1px 1px 1px black
 }
 
 /* *******   NAVBAR   ******* */
@@ -109,7 +108,6 @@ p.contact_us {
 }
 
 .rainbow-text {
-	/* background-image: repeating-linear-gradient(45deg, rgb(40, 247, 45),  dodgerblue, white, yellow, orange, red, rgb(40, 247, 45)); */
 	background-image: repeating-linear-gradient(
 		45deg,
 		red,
@@ -130,7 +128,8 @@ p.contact_us {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 24px;
-	animation: rainbow 12s ease infinite;
+	/* animation: rainbow 12s ease infinite; */
+	animation: 8s ease 0s infinite normal none running rainbow;
 }
 
 @keyframes rainbow {
