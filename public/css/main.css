@@ -97,6 +97,7 @@ label {
 #logoDiv {
 	margin: auto;
 	width: 370px;
+	margin-bottom: 1em !important;
 }
 
 #logo {
@@ -157,5 +158,10 @@ p.contact_us {
 	.MainDiv {
 		margin: auto;
 		width: 100% !important;
+	}
+
+	#logoDiv {
+		margin: auto;
+		width: 300px;
 	}
 }
