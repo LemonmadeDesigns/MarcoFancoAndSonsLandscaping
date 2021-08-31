@@ -94,6 +94,15 @@ label {
   justify-content: space-evenly;
 }
 
+#logoDiv {
+	margin: auto;
+	width: 370px;
+}
+
+#logo {
+	width: 100%;
+}
+
 p.contact_us {
 	font-size: 20px;
 	line-height: 1.5;
@@ -141,5 +150,12 @@ p.contact_us {
 	}
 	100% {
 		background-position: 0% 50%;
+	}
+}
+
+@media (max-width: 1660px) {
+	.MainDiv {
+		margin: auto;
+		width: 100% !important;
 	}
 }
